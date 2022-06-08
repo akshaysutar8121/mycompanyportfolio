@@ -1,11 +1,11 @@
-import React from 'react';
-import { motion, useMotionValue } from 'framer-motion';
-import './style.css';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import Education from './components/Education';
-import Home from './components/Home';
-import Project from './components/Project';
-import Contact from './components/Contact';
+import React from "react";
+import { motion } from "framer-motion";
+import "./style.css";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import Education from "./components/Education";
+import Home from "./components/Home";
+import Project from "./components/Project";
+import Contact from "./components/Contact";
 export default function App() {
   return (
     <Router>

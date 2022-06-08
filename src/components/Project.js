@@ -38,7 +38,7 @@ const Project = () => {
   ]);
   
   return (
-    <div className="flex mt-10 flex-nowrap mr-4">
+    <div className="flex mt-20 flex-nowrap mr-4">
       {data.map((val, idx) => {
         return (
           <Card
